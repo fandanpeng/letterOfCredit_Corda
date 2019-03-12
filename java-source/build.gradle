@@ -1,0 +1,121 @@
+repositories {
+    mavenLocal()
+    jcenter()
+    mavenCentral()
+    maven { url 'https://ci-artifactory.corda.r3cev.com/artifactory/corda' }
+    maven { url 'https://jitpack.io' }
+}
+
+apply plugin: 'java'
+apply plugin: 'net.corda.plugins.cordapp'
+apply plugin: 'net.corda.plugins.cordformation'
+apply plugin: 'net.corda.plugins.quasar-utils'
+
+jar.baseName = "cordapp-example"
+
+sourceSets {
+    main {
+        resources {
+            srcDir "../config/dev"
+        }
+    }
+    test {
+        resources {
+            srcDir "../config/test"
+        }
+    }
+    integrationTest {
+        java {
+            compileClasspath += main.output + test.output
+            runtimeClasspath += main.output + test.output
+            srcDir file('src/integration-test/java')
+        }
+    }
+}
+
+configurations {
+    integrationTestCompile.extendsFrom testCompile
+    integrationTestRuntime.extendsFrom testRuntime
+}
+
+dependencies {
+    testCompile "junit:junit:$junit_version"
+
+    // Corda integration dependencies
+    cordaCompile "$corda_release_group:corda-core:$corda_release_version"
+    cordaCompile "$corda_release_group:corda-finance:$corda_release_version"
+    cordaCompile "$corda_release_group:corda-jackson:$corda_release_version"
+    cordaCompile "$corda_release_group:corda-rpc:$corda_release_version"
+    cordaCompile "$corda_release_group:corda-webserver-impl:$corda_release_version"
+    cordaRuntime "$corda_release_group:corda:$corda_release_version"
+    cordaRuntime "$corda_release_group:corda-webserver:$corda_release_version"
+
+    testCompile "$corda_release_group:corda-node-driver:$corda_release_version"
+
+    // CorDapp dependencies
+    // Specify your cordapp's dependencies below, including dependent CorDapps
+    cordapp "$corda_release_group:corda-finance:$corda_release_version"
+	compile group: 'commons-logging', name: 'commons-logging', version: '1.2'	
+	compile group: 'log4j', name: 'log4j', version: '1.2.17'
+	// https://mvnrepository.com/artifact/com.alibaba/fastjson
+	compile group: 'com.alibaba', name: 'fastjson', version: '1.2.54'
+
+}
+
+task integrationTest(type: Test, dependsOn: []) {
+    testClassesDirs = sourceSets.integrationTest.output.classesDirs
+    classpath = sourceSets.integrationTest.runtimeClasspath
+}
+
+tasks.withType(JavaCompile) {
+    options.compilerArgs << "-parameters" // Required for shell commands.
+}
+
+task deployNodes(type: net.corda.plugins.Cordform, dependsOn: ['jar']) {
+    directory "./build/nodes"
+    node {
+        name "O=Notary,L=London,C=GB"
+        notary = [validating : false]
+        p2pPort 10006
+        cordapps = ["$corda_release_group:corda-finance:$corda_release_version"]
+    }
+    node {
+        name "O=PartyA,L=London,C=GB"
+        p2pPort 10007
+        rpcSettings {
+            address("localhost:10008")
+            adminAddress("localhost:10048")
+        }
+    
+        cordapps = ["$corda_release_group:corda-finance:$corda_release_version"]
+        rpcUsers = [[user: "user1", "password": "test", "permissions": ["ALL"]]]
+    }
+    node {
+        name "O=PartyB,L=New York,C=US"
+        p2pPort 10010
+        rpcSettings {
+            address("localhost:10011")
+            adminAddress("localhost:10051")
+        }
+     
+        cordapps = ["$corda_release_group:corda-finance:$corda_release_version"]
+        rpcUsers = [[user: "user1", "password": "test", "permissions": ["ALL"]]]
+    }
+    node {
+        name "O=PartyC,L=Paris,C=FR"
+        p2pPort 10013
+        rpcSettings {
+            address("localhost:10014")
+            adminAddress("localhost:10054")
+        }
+       
+        cordapps = ["$corda_release_group:corda-finance:$corda_release_version"]
+        rpcUsers = [[user: "user1", "password": "test", "permissions": ["ALL"]]]
+    }
+}
+
+task runExampleClientRPCJava(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'com.example.client.ExampleClientRPC'
+    args 'localhost:10008'
+}

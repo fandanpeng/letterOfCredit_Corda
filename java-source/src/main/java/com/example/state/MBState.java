@@ -1,7 +1,7 @@
 package com.example.state;
 
 import com.alibaba.fastjson.JSON;
-import com.example.LCBaseStruct.LCBaseStruct;
+import com.example.state.LCState;
 import com.example.contract.MarineBillContract;
 import com.google.common.collect.ImmutableList;
 import net.corda.core.contracts.CommandAndState;
@@ -16,16 +16,16 @@ import java.util.List;
 
 public class MBState implements OwnableState {
     public static Logger logger1 = Logger.getLogger(MBState.class);
-    private LCBaseStruct.MarineBill marineBill;
+    private LCState.MarineBill marineBill;
     private AbstractParty owner;
     public MBState(){
 
     }
     public MBState(String jsonStrMarineBill, AbstractParty owner){
-        this.marineBill = JSON.parseObject(jsonStrMarineBill, LCBaseStruct.MarineBill.class);
+        this.marineBill = JSON.parseObject(jsonStrMarineBill, LCState.MarineBill.class);
         this.owner = owner;
     }
-    public MBState(LCBaseStruct.MarineBill marineBill, AbstractParty owner){
+    public MBState(LCState.MarineBill marineBill, AbstractParty owner){
         this.marineBill = marineBill;
         this.owner = owner;
     }
@@ -80,10 +80,10 @@ public class MBState implements OwnableState {
         return ImmutableList.of(this.owner);
     }
 
-    public LCBaseStruct.GoodsInfo getGoodsInfo(){
+    public LCState.GoodsInfo getGoodsInfo(){
         return this.marineBill.goodsInfo;
     }
-    public LCBaseStruct.TransportInfo getTransportInfo(){
+    public LCState.TransportInfo getTransportInfo(){
         return this.marineBill.transportInfo;
     }
 

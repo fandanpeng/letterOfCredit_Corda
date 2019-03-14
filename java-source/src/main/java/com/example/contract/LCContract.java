@@ -49,9 +49,11 @@ public class LCContract implements Contract {
 
 
                     if (timeWindow == null) throw new IllegalArgumentException("Redemptions must be timestamped");
+                    boolean applyChargeOK = output.checkServiceChargeApply(received);
+                    boolean checkLCStateOK = output.checkLCState();
                     requireThat(require -> {
-                        require.using("checkServiceCharge should pass",output.checkServiceChargeApply(received) );
-                        require.using("checkLCState should pass",output.checkLCState() );
+                        require.using("checkServiceCharge should pass",applyChargeOK );
+                        require.using("checkLCState should pass", checkLCStateOK);
                         require.using("the transaction is signed by all participant", cmd.getSigners().containsAll(output.getParticipants().stream().map(AbstractParty::getOwningKey).collect(Collectors.toList())));
                         return null;
                     });

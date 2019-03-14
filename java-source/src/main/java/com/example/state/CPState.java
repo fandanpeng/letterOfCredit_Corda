@@ -1,6 +1,5 @@
 package com.example.state;
 
-import com.example.LCBaseStruct.LCBaseStruct;
 import com.example.contract.CPContract;
 import com.google.common.collect.ImmutableList;
 import net.corda.core.contracts.*;

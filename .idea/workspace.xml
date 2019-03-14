@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="880dda33-d110-4af9-881f-63e9f24b2257" name="Default Changelist" comment="" />
+    <list default="true" id="880dda33-d110-4af9-881f-63e9f24b2257" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-source/src/main/java/com/example/LCBaseStruct/LCBaseStruct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/LCIssueFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/LCIssueFlow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-source/src/main/java/com/example/state/MBState.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-source/src/main/java/com/example/state/MBState.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/java-source/.gradle/" />
@@ -80,25 +95,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPRedeemFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="73" column="32" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <element signature="e#2127#2128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/LCIssueFlow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+            <state relative-caret-position="342">
+              <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,22 +108,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java">
+        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="21" column="46" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="46" />
+            <state relative-caret-position="627">
+              <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPIssueFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -130,36 +122,46 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="2356">
+              <caret line="402" column="56" selection-start-line="402" selection-start-column="41" selection-end-line="402" selection-end-column="56" />
               <folding>
-                <element signature="e#2237#2238#0" expanded="true" />
-                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#copy#0;class#LCState#0" />
+                <element signature="method#withoutOwner#0;class#LCState#0" />
+                <element signature="method#changeOwner#0;class#LCState#0" />
+                <element signature="method#withNewOwner#0;class#LCState#0" />
+                <element signature="method#getBenificiary#0;class#LCState#0" />
+                <element signature="method#getApplicant#0;class#LCState#0" />
+                <element signature="method#getAdviseBank#0;class#LCState#0" />
+                <element signature="e#2552#2553#0" expanded="true" />
+                <element signature="e#2590#2591#0" expanded="true" />
+                <element signature="method#equals#0;class#LCState#0" />
+                <element signature="method#hashCode#0;class#LCState#0" />
+                <element signature="method#getParticipants#0;class#LCState#0" />
+                <element signature="method#getApplySerCharge#0;class#LCState#0" />
+                <element signature="method#checkServiceChargeApply#0;class#LCState#0" />
+                <element signature="method#getAcceptSerCharge#0;class#LCState#0" />
+                <element signature="method#checkServiceChargeAcceptance#0;class#LCState#0" />
+                <element signature="method#checkLCState#0;class#LCState#0" />
+                <element signature="method#checkMarineBill#0;class#LCState#0" />
+                <element signature="method#CheckLCBaseInfo#0;class#LCBaseInfo#0;class#LCState#0" />
+                <element signature="class#LCBaseInfoWithParticipant#0;class#LCState#0" />
+                <element signature="class#GoodsInfo#0;class#LCState#0" />
+                <element signature="class#TransportInfo#0;class#LCState#0" />
+                <element signature="class#DocRequired#0;class#LCState#0" />
+                <element signature="class#MarineBill#0;class#LCState#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/LCBaseStruct/LCBaseStruct.java">
+        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/MBState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3553">
-              <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
+            <state relative-caret-position="1235">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPMoveFlow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#Initiator#0;class#CPMoveFlow#0" />
               </folding>
             </state>
           </provider>
@@ -186,7 +188,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -200,18 +202,19 @@
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/api/ExampleApi.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/ExampleFlow.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/IOUState.java" />
-        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/LOCState.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPRedeemFlow.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/contract/CPContract.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPMoveFlow.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/contract/MarineBillContract.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/MarineBillState.java" />
-        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java" />
-        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java" />
-        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/LCBaseStruct/LCBaseStruct.java" />
         <option value="$PROJECT_DIR$/java-source/src/test/java/com/example/flow/IOUFlowTests.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPIssueFlow.java" />
+        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/LCBaseStruct/LCBaseStruct.java" />
+        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/MBState.java" />
+        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java" />
+        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java" />
+        <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java" />
         <option value="$PROJECT_DIR$/java-source/src/main/java/com/example/flow/LCIssueFlow.java" />
       </list>
     </option>
@@ -234,71 +237,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -307,8 +292,8 @@
               <item name="contract" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -317,38 +302,8 @@
               <item name="flow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="LCBaseStruct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="plugin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="schema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="letterOfCredit_Corda" type="b2602c69:ProjectViewProjectNode" />
+              <item name="letterOfCredit_Corda" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
@@ -356,52 +311,14 @@
               <item name="example" type="462c0819:PsiDirectoryNode" />
               <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="exampleWeb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="exampleWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java-source" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551954294637" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552473142277" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -449,9 +366,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31467474" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33585477" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -466,9 +384,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5015129" side_tool="true" visible="true" weight="0.29738563" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50680786" side_tool="true" visible="true" weight="0.14215687" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32843137" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49848714" weight="0.14215687" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49319214" weight="0.14215687" />
       <window_info anchor="bottom" id="Build" order="11" sideWeight="0.49924356" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
@@ -489,6 +407,12 @@
           <line>49</line>
           <properties myFieldName="CP_PROGRAM_ID" myClassName="net.corda.finance.contracts.CommercialPaper.Companion" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -540,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
           <caret line="208" column="32" selection-start-line="208" selection-start-column="32" selection-end-line="208" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/flows/FlowLogic.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="106" column="81" selection-start-line="106" selection-start-column="76" selection-end-line="106" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -649,31 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-finance/3.3-corda/e781ca98dd9fe46dad4a2aed52da47ffb5ddda72/corda-finance-3.3-corda.jar!/net/corda/finance/contracts/asset/Cash.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/f7e22e942cdfd92fbb3737fd7d0d26422f5225cb/corda-core-3.3-corda.jar!/net/corda/core/flows/SendStateAndRefFlow.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/contracts/Amount.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/transactions/TransactionBuilder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -720,36 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/MBState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="85" column="54" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1821#1822#0" expanded="true" />
-            <element signature="e#1849#1850#0" expanded="true" />
-            <element signature="e#2251#2252#0" expanded="true" />
-            <element signature="e#2289#2290#0" expanded="true" />
-            <element signature="e#2976#2977#0" expanded="true" />
-            <element signature="e#3027#3028#0" expanded="true" />
-            <element signature="e#2778#2779#0" expanded="true" />
-            <element signature="e#2815#2816#0" expanded="true" />
-            <element signature="e#2878#2879#0" expanded="true" />
-            <element signature="e#2925#2926#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/contract/CPContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="50" column="65" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/contract/IOUContract.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -757,13 +623,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -798,52 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/flows/FlowSession.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="171" column="17" selection-start-line="171" selection-start-column="17" selection-end-line="171" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/IOUState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/ExampleFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-58">
-          <caret line="71" column="55" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#ExampleFlow#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/SelfIssueCashFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="75" column="30" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2642#2652#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/utilities/UntrustworthyData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java-source/src/test/java/com/example/flow/IOUFlowTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -851,53 +664,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPRedeemFlow.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/utilities/UntrustworthyData.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="73" column="32" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="342">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/flows/FlowSession.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPIssueFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#2237#2238#0" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/LCBaseStruct/LCBaseStruct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3553">
-          <caret line="195" column="9" selection-start-line="195" selection-start-column="9" selection-end-line="195" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="2261">
+          <caret line="122" column="27" selection-start-line="122" selection-start-column="27" selection-end-line="122" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -912,10 +689,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/LCIssueFlow.java">
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/ExampleFlow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="119" column="66" selection-start-line="119" selection-start-column="66" selection-end-line="119" selection-end-column="66" />
+          <caret line="99" column="61" selection-start-line="99" selection-start-column="46" selection-end-line="99" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#ExampleFlow#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/contracts/Amount.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-589">
+          <caret line="39" column="79" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/flows/FlowLogic.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPIssueFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-finance/3.3-corda/e781ca98dd9fe46dad4a2aed52da47ffb5ddda72/corda-finance-3.3-corda.jar!/net/corda/finance/contracts/asset/Cash.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-513" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/3.3-corda/e2a51041991ca78ebe5270bf9da1e748b8d0e5a0/corda-core-3.3-corda-sources.jar!/net/corda/core/transactions/TransactionBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="141" column="8" selection-start-line="141" selection-start-column="8" selection-end-line="141" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/LCBaseStruct/LCBaseStruct.java" />
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/CPRedeemFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2489">
+          <caret line="154" column="172" selection-start-line="154" selection-start-column="172" selection-end-line="154" selection-end-column="172" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/SelfIssueCashFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="86" column="109" selection-start-line="86" selection-start-column="103" selection-end-line="86" selection-end-column="109" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/contract/CPContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="50" column="65" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/CPState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/IOUState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/flow/LCIssueFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="110" column="59" selection-start-line="110" selection-start-column="59" selection-end-line="110" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/contract/LCContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="51" column="63" selection-start-line="51" selection-start-column="63" selection-end-line="51" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/LCState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2356">
+          <caret line="402" column="56" selection-start-line="402" selection-start-column="41" selection-end-line="402" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#copy#0;class#LCState#0" />
+            <element signature="method#withoutOwner#0;class#LCState#0" />
+            <element signature="method#changeOwner#0;class#LCState#0" />
+            <element signature="method#withNewOwner#0;class#LCState#0" />
+            <element signature="method#getBenificiary#0;class#LCState#0" />
+            <element signature="method#getApplicant#0;class#LCState#0" />
+            <element signature="method#getAdviseBank#0;class#LCState#0" />
+            <element signature="e#2552#2553#0" expanded="true" />
+            <element signature="e#2590#2591#0" expanded="true" />
+            <element signature="method#equals#0;class#LCState#0" />
+            <element signature="method#hashCode#0;class#LCState#0" />
+            <element signature="method#getParticipants#0;class#LCState#0" />
+            <element signature="method#getApplySerCharge#0;class#LCState#0" />
+            <element signature="method#checkServiceChargeApply#0;class#LCState#0" />
+            <element signature="method#getAcceptSerCharge#0;class#LCState#0" />
+            <element signature="method#checkServiceChargeAcceptance#0;class#LCState#0" />
+            <element signature="method#checkLCState#0;class#LCState#0" />
+            <element signature="method#checkMarineBill#0;class#LCState#0" />
+            <element signature="method#CheckLCBaseInfo#0;class#LCBaseInfo#0;class#LCState#0" />
+            <element signature="class#LCBaseInfoWithParticipant#0;class#LCState#0" />
+            <element signature="class#GoodsInfo#0;class#LCState#0" />
+            <element signature="class#TransportInfo#0;class#LCState#0" />
+            <element signature="class#DocRequired#0;class#LCState#0" />
+            <element signature="class#MarineBill#0;class#LCState#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-source/src/main/java/com/example/state/MBState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1235">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -974,12 +905,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cordapp-example</last-edited>
+          <last-edited>example</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -987,6 +917,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
